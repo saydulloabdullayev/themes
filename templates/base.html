@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>
+        {% block title %}
+            Learn Django
+        {% endblock %}
+    </title>
+</head>
+<body>
+    <UL>
+        <li><a href='/'>Main page</a></li>
+        <li><a href="{% url 'themes' %}">Themes</a></li>
+    </UL>
+<!--    {% block content %)-->
+
+<!--    {% endblock %}-->
+    <footer>
+        <h1>This is footer</h1>
+    </footer>
+</body>
+</html>

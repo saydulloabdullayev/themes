@@ -1,0 +1,14 @@
+{% extends 'base.html' %}
+
+{% block title %}
+    Themes
+{% endblock %}
+
+{% block content%}
+    <h1> Themes </h1>
+    <ul>
+        {% for tema in themes %}
+            <li> {{tema}}</li>
+
+        {%endblock%}
+    </ul>
